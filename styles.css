@@ -1,0 +1,26 @@
+.main {
+    background: linear-gradient(-45deg, #dd5e89, #f7bb97);
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    text-shadow: 0 0 3px #000;
+}
+
+.bg-yellow {
+    background-color: #eace09;
+}
+
+.bg-aqua {
+    background-color: #88ffff;
+}
+
+.bg-red {
+    background-color: #f25f5c;
+}
+
+.bg-blue {
+    background: linear-gradient(#76a0ca,#04268a);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <section class="main text-center text-light">
+      <div class="container">
+        <h1 class="display-3 pt-3 title">To-Do List</h1>
+        <div class="float-sm-right m-3">
+          <input type="text" class="form-control" id="searchbar" placeholder="Search Tasks">
+        </div>
+        <form id="addTask" class="m-3">
+          <input type="text" class="form-control mb-3" id="add-task" placeholder="Enter Task">
+          <input type="submit" class="btn bg-yellow" value="Add Task">
+        </form>
+        <div class="card card-body bg-blue">
+          <ul id="list" class="list-group m-3">
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
